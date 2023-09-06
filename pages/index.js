@@ -1,10 +1,9 @@
 import Head from "next/head";
 
-
 import {
-  useStoryblokState,
-  getStoryblokApi,
   StoryblokComponent,
+  getStoryblokApi,
+  useStoryblokState,
 } from "@storyblok/react";
 
 export default function Home({ story }) {
@@ -13,7 +12,7 @@ export default function Home({ story }) {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>DaveAuto: Personal car leasing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <StoryblokComponent blok={story.content} />
