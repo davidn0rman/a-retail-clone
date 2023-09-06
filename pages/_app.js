@@ -1,16 +1,18 @@
 import { apiPlugin, storyblokInit } from "@storyblok/react";
-import Feature from "../components/Feature";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import "../styles/globals.css";
 // import Grid from "../components/Grid";
 import Page from "../components/Page";
+import Topbar from "../components/Topbar";
+import Topbariconbutton from "../components/Topbariconbutton";
+import Topbarlink from "../components/Topbarlink";
 // import Teaser from "../components/Teaser";
 
 const components = {
-  feature: Feature,
-  header: Header,
-  // grid: Grid,
-  // teaser: Teaser,
+  // header: Header,
+  topbar: Topbar,
+  topbariconbutton: Topbariconbutton,
+  topbarlinks: Topbarlink,
   page: Page,
 };
 
